@@ -1,0 +1,28 @@
+.store-banner-store-banner {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.store-banner-image {
+  width: 135px;
+  object-fit: cover;
+}
+.store-banner-image1 {
+  width: 135px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.store-banner-root-class-name {
+  align-self: center;
+}
+@media(max-width: 1200px) {
+  .store-banner-root-class-name {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .store-banner-root-class-name {
+    align-self: center;
+  }
+}
